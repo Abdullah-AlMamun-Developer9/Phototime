@@ -1,0 +1,461 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: PSD TO HTML
+	Template URI: http://www.almamun chawdhuri.com
+	Description: photo related template
+	Author: Ab. AlMamun
+	Author URI: http://www.Abalmamun.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Header Area
+		1.1 Menu Area
+		1.2 Welcome Text 
+		1.3 Social Media 
+	2. Getting Started
+	3. Design Area
+	4. Community Area
+	5. Subscribe Area
+	6. Download Area
+	7. Footer Area
+
+-----------------------------------------------------------------------------------*/
+@font-face {
+    font-family: "gothamRoundedBold";
+    src: url('fonts/something.woff') format('woff');
+}
+@font-face {
+    font-family: "gothamroundedbook";
+    src: url('fonts/gothamroundedbook.woff') format('woff');
+}
+
+body {
+    font-family: 'gothamroundedbook';
+    font-size: 12px;
+    margin: 0px;
+    line-height: 1.3em;
+}
+.container {
+	width: 92%;
+	margin: 0 auto;
+	max-width: 1080px;
+}
+.header-area {
+	background-image: url(image/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 100% 100%;
+	text-align: center;
+	padding: 50px 0;
+	color: #FFFFFF;
+	overflow: hidden;
+}
+.menu-area ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.menu-area ul li {
+	display: inline-block;
+	margin: 0 24px;
+}
+.menu-area ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 12px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid transparent;
+	transition: .8s;
+}
+.menu-area ul .logo img {
+	width: 40px;
+	height: auto;
+	margin: 0 40px;
+}
+.menu-area ul .logo a {
+	border: none;
+}
+.menu-area ul .logo a:hover {
+	border: none;
+}
+.menu-area ul li a:hover {
+	color: blue;
+	transform: scale(1.4);
+	border-bottom: 1px solid #FFFFFF;
+}
+
+
+.text-area {
+	margin-top: 180px;
+	overflow: hidden;
+}
+.text-area h2 {
+	font-size: 26px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: normal;
+}
+.text-area h5 {
+	font-size: 13px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	font-family: "gothamroundedbook";
+}
+.btn {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+	background: #20A48C;
+	padding: 10px 25px;
+	display: inline-block;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	transition: .4s;
+}
+.btn:hover {
+	color: #20A48C;
+	background: #FFFFFF;
+	border: 1px solid #20A48C;
+}
+
+
+.social-media {
+	margin-top: 130px;
+	overflow: hidden;
+}
+.social-media ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.social-media ul li {
+	display: inline;
+	margin: 0 10px;
+}
+.social-media ul li a {
+	color: #FFFFFF;
+	font-size: 20px;
+	text-decoration: none;
+	transition: .5s;
+}
+.social-media ul li a:hover {
+	color: green;
+	box-shadow: 0 0 20px 10px black;
+}
+
+
+
+
+.getting-area {
+	background-color: #F5F6F8;
+	overflow: hidden;
+}
+.getting-area .row {
+	background-image: url(image/hand.png);
+	background-repeat: no-repeat;
+	background-size: 50% auto;
+	background-position: top right;
+	margin-top: 40px;
+	padding-bottom: 30px;
+	cursor: pointer;
+}
+.getting-area .start-text {
+	width: 50%;
+}
+h3 {
+	color: #15A085;
+	font-family: "gothamroundedbook";
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 1.3em;
+}
+.start-text p {
+	color: #C2C3C5;
+	font-size: 10px;
+	letter-spacing: 1px;
+	line-height: 2em;
+	margin-bottom: 30px;
+}
+strong {
+	color: #666666;
+}
+
+
+.design-area {
+	margin-top: 60px;
+	overflow: hidden;
+}
+.design {
+	overflow: hidden;
+	background-image: url(image/mobile.png);
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: left top;
+	cursor: pointer;
+}
+.design-text {
+	width: 40%;
+	float: right;
+	overflow: hidden;
+}
+.design-text p {
+	color: #C2C3C5;
+	font-size: 10px;
+	letter-spacing: 1px;
+	line-height: 2em;
+}
+.slide {
+	margin: 50px 0px;
+}
+.arrow i {
+	color: #000000;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+
+
+
+.than {
+	margin-top: 80px;
+	margin-bottom: 120px;
+	overflow: hidden;
+	width: 100%;
+}
+
+
+.community {
+	width: 25%;
+	height: auto;
+	float: left;
+	margin-right: .5%;
+}
+.van {
+	width: 37%;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	margin-right: .5%;
+	cursor: pointer;
+	transition: .5s;
+}
+.leaf {
+	width: 37%;
+	height: auto;
+	overflow: hidden;
+	cursor: pointer;
+	transition: .5s;
+}
+.van:hover {
+	transform: scale(1.1);
+	overflow: hidden;
+}
+.leaf:hover {
+	transform: scale(1.1);
+	overflow: hidden;
+}
+.community .lo img {
+	transition: .5s;
+}
+.community .lo img:hover {
+	transform: scale(1.4);
+	overflow: hidden;	
+}
+
+
+.photo {
+	position: relative;
+	margin-top: 33px;
+}
+.arr {
+	position: absolute;
+	left: 1125px;
+	font-size: 30px;
+	text-indent: 10px;
+}
+.arr i {
+	color: #000000;
+}
+
+.lo {
+	text-indent: 85px;
+	margin-top: 42px;
+	cursor: pointer;
+}
+.text {
+	text-align: center;
+}
+.text h4 {
+	color: #373d49;
+	font-family: "gothamroundedbook";
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: 25px;
+	margin-right: 40px;
+}
+.text p {
+	color: #7F8082;
+	margin-right: 40px;
+	letter-spacing: 1.4px;
+	font-size: 10px;
+	line-height: 1.3em;
+}
+
+
+
+
+.subscribe-area {
+	background-image: url(image/subscribe-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 0 0;
+	padding: 330px;
+}
+.subscribe-area h3 {
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 4px;
+	font-size: 26px;
+	font-family: "gothamroundedbold";
+}
+.subscribe-area form {
+	width: 440px;
+	margin: 0 auto;
+}
+.subscribe-area form input[type="email"] {
+	background: #FFFFFF;
+	padding: 22px 0px;
+	padding-left: 20px;
+	padding-right: 50px;
+	text-transform: uppercase;
+	color: #000000;
+	letter-spacing: 2.5px;
+	font-size: 15px;
+	font-family: "gothamroundedbold";
+	border: none;
+	border-radius: 3px 0 0 3px;
+	margin-right: 0px;
+	margin-left: 50px;
+}
+.subscribe-area form button {
+	background: #16A086;
+	color: #FFFFFF;
+	padding: 21.3px 24px;
+	border: 2px solid transparent;
+	border-radius: 0 3px 3px 0;
+	margin-left: -4px;
+	font-size: 15px;
+	cursor: pointer;
+	transition: 1s;
+}
+.subscribe-area form button:hover {
+	background: #FFFFFF;
+	color: #16A086;
+	border: 2px solid #16A086;
+}
+
+
+
+
+
+.downloade-area {
+	text-align: center;
+	padding: 80px;
+}
+.txt h2 {
+	color: #1BBC9B;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 25px;
+	margin-bottom: 5px;
+	font-family: "gothamroundedbold";
+}
+.txt p {
+	color: #3c3c41;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	line-height: 1.8em;
+	margin-bottom: 40px;
+	font-size: 12px;
+}
+
+
+.font form .bt {
+	background: #1BBC9B;
+	padding: 18.5px 0px;
+	padding-left: 30px;
+	padding-right: 75px;
+	text-transform: uppercase;
+	color: #FFFBF9;
+	letter-spacing: 2.5px;
+	font-size: 15px;
+	font-family: "gothamroundedbold";
+	border: 1px solid transparent;
+	border-radius: 3px 0 0 3px;
+}
+.font form button {
+	background: #16A086;
+	color: #FFFFFF;
+	padding-top: 10.2px;
+	padding-bottom: 17px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px solid transparent;
+	border-radius: 0 3px 3px 0;
+	margin-left: -4px;
+	font-size: 25px;
+	cursor: pointer;
+	transition: 1s;
+}
+.font form button:hover {
+	background: #FFFFFF;
+	color: #16A086;
+	border: 1px solid #16A086;
+}
+.font form .mar {
+	margin-right: 25px;
+}
+
+
+
+.footer-area {
+	padding: 40px 0px;
+}
+.pic img{
+	float: right;
+	overflow: hidden;
+	margin-bottom: 60px;
+	transition: .5s;
+}
+.footer-area h4 {
+	color: #303235;
+	font-size: 15px;
+	letter-spacing: .4px;
+	font-weight: normal;
+}
+
+.footer-area p {
+	margin-top: 30px;
+	color: #5a5d61;
+	margin-bottom: -50px;
+}
+.pic img:hover {
+	transform: scale(1.4);
+	overflow: hidden;
+}
+
+
+
+/*************************************RESPONSIVE AREA STARTED**************************************/
+
+
+
